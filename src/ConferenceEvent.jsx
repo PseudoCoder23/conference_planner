@@ -154,6 +154,9 @@ const ConferenceEvent = () => {
         meals: mealsTotalCost,
     };
 
+    const total_amount = totalCosts.venue + totalCosts.av + totalCosts.meals;
+    
+
     return (
         <>
             <navbar className="navbar_event_conference">
